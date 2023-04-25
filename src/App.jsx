@@ -6,14 +6,15 @@ import Nabvar from './components/Nabvar'
 import Menu from './components/Menu'
 import Perfil from './components/Perfil'
 import Soporte from './components/Soporte'
+import Sorteos from './components/Sorteos'
 
 function App() {
 
   return (
     <>
       <Nabvar/>
-      <Singup />
-      <Menu/>
+      <Perfil />
+      <Menu />
     </>
   )
 }

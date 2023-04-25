@@ -3,7 +3,7 @@ import { Bell, ArrowLeft } from 'iconoir-react'
 
 function Nabvar() {
     return (
-        <nav className='bg-body-secondary'>
+        <nav className='container-fluid bg-body-secondary'>
             <div className='d-flex justify-content-between'>
                 <div className='p-3'>
                     <button type="button" className="btn btn-lg btn-dark">

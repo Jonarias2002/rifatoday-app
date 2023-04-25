@@ -1,5 +1,6 @@
 import React from 'react'
 import logoImg from '../assets/images.jpeg'
+import { LockKey } from 'iconoir-react'
 
 function Perfil() {
     return (
@@ -19,6 +20,7 @@ function Perfil() {
                     <input className="form-control" type="text" placeholder="Default input"></input>
                 </div>
                 <div className='pt-3'>
+                    <LockKey />
                     <input className="form-control" type="text" placeholder="Default input"></input>
                 </div>
                 <div className='p-4'>
