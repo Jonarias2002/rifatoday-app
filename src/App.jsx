@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Nabvar/>
-      <Soporte />
+      <Singup />
       <Menu/>
     </>
   )

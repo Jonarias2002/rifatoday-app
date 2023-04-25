@@ -1,4 +1,5 @@
 import React from 'react'
+import { Facebook, Google } from 'iconoir-react'
 
 export default function Singup() {
     return (
@@ -18,10 +19,10 @@ export default function Singup() {
                         <button type="button" className="shadow btn bg-success btn-lg rounded">Ingresa con Correo Electronico</button>
                     </div>
                     <div className='p-3'>
-                        <button type="button" className="shadow btn btn-primary btn-lg rounded "><ion-icon name="logo-facebook"></ion-icon>Entra con Facebook</button>
+                        <button type="button" className="shadow btn btn-primary btn-lg rounded "><Facebook />Entra con Facebook</button>
                     </div>
                     <div className='p-3'>
-                        <button type="button" className="shadow btn btn-danger btn-lg rounded "><label className=''><ion-icon name="logo-google"></ion-icon></label>Entra con Google</button>
+                        <button type="button" className="shadow btn btn-danger btn-lg rounded "><Google/>Entra con Google</button>
                     </div>
                 </div>
                 <div className="grid justify-content-center p-2">
