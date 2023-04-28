@@ -1,6 +1,6 @@
 import React from 'react'
 import logoImg from '../assets/images.jpeg'
-import { LockKey } from 'iconoir-react'
+import { LockKey, Calendar, Phone, EmojiSatisfied } from 'iconoir-react'
 
 function Perfil() {
     return (
@@ -11,17 +11,20 @@ function Perfil() {
                     <button type="button" className="btn btn-secondary">Editar Foto</button>
                 </div>
                 <div className='pt-4'>
-                    <input className="form-control" type="text" placeholder="Default input"></input>                                
+                    <EmojiSatisfied/>
+                    <input className="form-control" type="text" placeholder="Nombre y apellido"></input>                                
                 </div>
                 <div className='pt-3'>
-                    <input className="form-control" type="text" placeholder="Default input"></input>
-                </div>
-                <div className='pt-3'>
-                    <input className="form-control" type="text" placeholder="Default input"></input>
+                    <Phone/>
+                    <input className="form-control" type="number" placeholder="Telefono"></input>
                 </div>
                 <div className='pt-3'>
                     <LockKey />
-                    <input className="form-control" type="text" placeholder="Default input"></input>
+                    <input className="form-control" type="password" placeholder="********"></input>
+                </div>
+                <div className='pt-3'>
+                    <Calendar/>
+                    <input className="form-control" type="date" placeholder="Default input"></input>
                 </div>
                 <div className='p-4'>
                     <button type="button" className="btn btn-lg btn-secondary">Actualizar</button>

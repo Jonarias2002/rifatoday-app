@@ -2,7 +2,9 @@ import React from 'react'
 
 function Tickets() {
   return (
-    <div>Tickets</div>
+    <div className='Container vh-100 bg-info-subtle p-2'>
+      Tickets
+    </div>
   )
 }
 

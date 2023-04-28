@@ -2,7 +2,9 @@ import React from 'react'
 
 function Tutoriales() {
   return (
-    <div>Tutoriales</div>
+    <div className='Container vh-100 bg-info-subtle p-2'>
+      Tutoriales
+    </div>
   )
 }
 
