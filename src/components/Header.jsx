@@ -1,7 +1,7 @@
 import React from 'react'
 import { Bell, ArrowLeft } from 'iconoir-react'
 
-function Nabvar() {
+function Header() {
     return (
         <nav className='container-fluid bg-body-secondary'>
             <div className='d-flex justify-content-between'>
@@ -27,4 +27,4 @@ function Nabvar() {
     )
 }
 
-export default Nabvar
+export default Header

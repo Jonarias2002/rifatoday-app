@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Settings, Movie, UserCart, HomeUser, Dollar } from 'iconoir-react'
 
-function Menu() {
+function Footer() {
     return (
         <nav className='container-fluid fixed-bottom text-center bg-body-secondary rounded-top' aria-label="breadcrumb">
             <ol className="nav row row-cols-auto align-items-end justify-content-center p-1">
@@ -26,4 +26,4 @@ function Menu() {
     ) 
 }
 
-export default Menu
+export default Footer
