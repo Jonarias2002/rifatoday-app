@@ -10,6 +10,7 @@ import Tutoriales from './components/Tutoriales'
 import Tickets from './components/Tickets'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import {Auth0Provider} from '@auth0/auth0-react'
 
 function App() {
 

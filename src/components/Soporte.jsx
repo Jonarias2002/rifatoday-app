@@ -11,31 +11,25 @@ function Soporte() {
                     width={200}
                     />
                 </div>
-                <div className='d-flex justify-content-center'>
-                    <div className='row p-4'>
-                        <div className='col-6 col-sm-3'>
-                            <Phone />
-                        </div>
-                        <div className='col-6 col-sm-3'>
-                            <button type="button" className="btn btn-success">Success</button>
-                        </div>
+                <div className='row d-flex justify-content-center'>
+                <div className='row p-4'>
+                    <div className='col-6 col-sm-3'>
+                        <Phone />
+                        <button type="button" className="btn btn-success">Success</button>
                     </div>
-                    <div className='row p-3'>
-                        <div className='col-6 col-sm-3'>
-                            <Mail />
-                        </div>
-                        <div className='col-6 col-sm-3'>
-                            <button type="button" className="btn btn-success">Success</button>
+                </div>
+                <div className='row p-3'>
+                    <div className='col-6 col-sm-3'>
+                        <Mail />
+                        <button type="button" className="btn btn-success">Success</button>
                     </div>
+                </div>
+                <div className='row p-3'>
+                    <div className='col-6 col-sm-3'>
+                        <ChatBubbleEmpty />
+                        <button type="button" className="btn btn-success">Success</button>
                     </div>
-                    <div className='row p-3'>
-                        <div className='col-6 col-sm-3'>
-                            <ChatBubbleEmpty />
-                        </div>
-                        <div className='col-6 col-sm-3'>
-                            <button type="button" className="btn btn-success">Success</button>
-                        </div>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
