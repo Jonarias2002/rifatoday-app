@@ -10,7 +10,9 @@ function Sorteos() {
                     height={150}
                     width={150}
                     />
-                    <span className='row fw-bold text-primary'>Add item</span>
+                    <div className='row text-center'>
+                        <span className='row fw-bold text-primary'>Add item</span>
+                    </div>
                 </button>
                 
             </div>
