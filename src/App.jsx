@@ -11,13 +11,14 @@ import Tickets from './components/Tickets'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import {Auth0Provider} from '@auth0/auth0-react'
+import Loading from './components/Loading'
 
 function App() {
 
   return (
     <BrowserRouter>
       <Header />
-        <Routes>
+      <Routes>
           <Route path='/perfil' element={<Perfil />}/>
           <Route path='/tutoriales' element={<Tutoriales />}/>
           <Route path='/tickets' element={<Tickets />}/>

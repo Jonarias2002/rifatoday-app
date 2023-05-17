@@ -3,7 +3,7 @@ import { HeadsetHelp, Phone, Mail, ChatBubbleEmpty } from 'iconoir-react'
 
 function Soporte() {
     return (
-        <div className='Container vh-100 bg-info-subtle  p-2'>
+        <div className='Container vh-100 bg-info-subtle'>
             <div className='grid text-center'>
                 <div className='row p-3'>
                     <HeadsetHelp 
@@ -11,24 +11,26 @@ function Soporte() {
                     width={200}
                     />
                 </div>
-                <div className='row d-flex justify-content-center'>
-                <div className='row p-4'>
-                    <div className='col-6 col-sm-3'>
-                        <Phone />
-                        <button type="button" className="btn btn-success">Success</button>
+                <div className='grid justify-content-center'>
+                    <div className="row">
+                        <div className='col-6 col-sm-3'>
+                            <Phone />
+                            <button type="button" className="btn btn-success">Success</button>
+                        <div/>
                     </div>
-                </div>
-                <div className='row p-3'>
-                    <div className='col-6 col-sm-3'>
-                        <Mail />
-                        <button type="button" className="btn btn-success">Success</button>
+                    <div className="row">
+                        <div className='col-6 col-sm-3'>
+                            <Mail />
+                            <button type="button" className="btn btn-success">Success</button>
+                        </div>
                     </div>
-                </div>
-                <div className='row p-3'>
-                    <div className='col-6 col-sm-3'>
-                        <ChatBubbleEmpty />
-                        <button type="button" className="btn btn-success">Success</button>
+                    <div className="row">
+                        <div className='col-6 col-sm-3'>
+                            <ChatBubbleEmpty />
+                            <button type="button" className="btn btn-success">Success</button>
+                        </div>
                     </div>
+                    
                 </div>
                 </div>
             </div>
