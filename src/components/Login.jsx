@@ -1,7 +1,9 @@
 import React from 'react'
 import { LockKey, Mail, ArrowLeft } from 'iconoir-react'
+import LoginButton from './LoginButton'
 
 function Login() {
+
     return (
         <section className='container-lg'>
             <div className='d-flex justify-content-between'>
@@ -34,9 +36,7 @@ function Login() {
                         <input type="text" className="form-control bg-secondary-subtle"></input>
                     </div>
                 </div>
-                <div className='text-center py-5'>
-                    <button type="button" className="btn btn-lg btn-dark">Entrar</button>
-                </div>
+                <LoginButton />
             </div>
         </section>
     )

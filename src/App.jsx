@@ -16,15 +16,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <Header/>
-      <Routes>
-        <Route path='/perfil' element={<Perfil/>}/>
-        <Route path='/tutoriales' element={<Tutoriales/>}/>
-        <Route path='/tickets' element={<Tickets/>}/>
-        <Route path='/soporte' element={<Soporte/>}/>
-        <Route path='/sorteos' element={<Sorteos/>}/>
-      </Routes>
-      <Footer/>
+    <Login/>
     </BrowserRouter>
   )
 }

@@ -13,12 +13,6 @@ function Soporte() {
                 </div>
                 <div className='row justify-content-center p-3'>
                     <div className=''>
-                        <Phone />
-                        <button type="button" className="btn btn-success w-25 m-2">LLAMANOS</button>
-                    </div>
-                </div>
-                <div className='row justify-content-center p-3'>
-                    <div className=''>
                         <Mail />
                         <button type="button" className="btn btn-success w-25 m-2">ENVIANOS UN WHATSAPP</button>
                     </div>
